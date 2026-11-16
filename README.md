@@ -81,3 +81,40 @@ The dataset contains estimated performance metrics. Estimated conversions and re
 **Deliverables:** Jupyter Notebook, Cleaned Dataset and Summary Report.
 
 *Note: Analysis performed using a synthetic practice dataset.*
+
+## Task 4: Customer Lifetime Value (CLV) & Cohort Analysis
+
+### Objective
+To analyze customer purchasing behavior, measure customer retention, and calculate Customer Lifetime Value (CLV) using SQL and Python.
+
+### Activities Performed
+- Loaded and cleaned the online retail dataset.
+- Created a SQLite database.
+- Extracted transaction data using SQL queries.
+- Identified customer cohorts based on their first purchase month.
+- Created a cohort retention table.
+- Visualized customer retention using a heatmap.
+- Calculated customer-level and average cohort CLV.
+- Identified best and worst performing cohorts.
+- Created retention curves and CLV visualizations.
+
+### Tools and Technologies
+- Python
+- Pandas
+- SQLite
+- SQL
+- Matplotlib
+- Seaborn
+- Google Colab
+
+### Deliverables
+- Jupyter Notebook
+- Cohort Retention Report
+- Customer CLV Reports
+- Cohort Heatmap
+- Retention Curves
+- CLV Chart
+- SQLite Database
+
+### Note
+The first purchase month is used as a proxy for the customer cohort month. CLV represents historical customer revenue during the available dataset period, not a future revenue prediction.
