@@ -57,3 +57,27 @@ To analyze marketing campaign performance and identify the most effective campai
 
 ### Note
 The dataset contains estimated performance metrics. Estimated conversions and revenue are calculated from the available dataset columns and should not be treated as actual business results.
+
+### Task 3: A/B Test Analysis for Product Feature Rollout
+
+**Objective:** To analyze the performance of a new product feature by comparing control and treatment groups.
+
+**Activities Performed:**
+- Loaded and cleaned A/B testing dataset.
+- Compared conversion rates between control and treatment groups.
+- Performed a two-proportion Z-test.
+- Calculated p-value, 95% confidence interval and effect size.
+- Analyzed session duration using Welch's t-test.
+- Created visualizations for comparison.
+- Provided a product rollout recommendation.
+
+**Key Results:**
+- Control Conversion Rate: 9.86%
+- Treatment Conversion Rate: 11.18%
+- Absolute Lift: 1.32 percentage points
+- P-value: 0.031463
+- Final Recommendation: SHIP IT
+
+**Deliverables:** Jupyter Notebook, Cleaned Dataset and Summary Report.
+
+*Note: Analysis performed using a synthetic practice dataset.*
