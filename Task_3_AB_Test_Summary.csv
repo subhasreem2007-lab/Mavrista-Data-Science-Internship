@@ -1,0 +1,11 @@
+Metric,Value
+Control Conversion Rate (%),9.86
+Treatment Conversion Rate (%),11.18
+Absolute Lift (percentage points),1.3200000000000003
+Relative Lift (%),13.387423935091283
+Z Statistic,2.1511618038215583
+P-value,0.03146343070436683
+Confidence Interval Lower (percentage points),0.11757937635784085
+Confidence Interval Upper (percentage points),2.5224206236421596
+Cohen's H,0.04304307138623187
+Session Duration P-value,3.3631018383949137e-38
