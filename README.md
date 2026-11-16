@@ -1,27 +1,31 @@
-# Mavrista Data Science Internship
+## Task 2: Marketing Campaign Performance Analysis
 
-This repository contains projects completed during my Data Science Internship at Mavrista Technologies.
+### Objective
+To analyze marketing campaign performance and identify the most effective campaigns, channels, and target audiences using data analysis.
 
-## Task 1: Retail Sales Data Cleaning and Exploration
+### Activities Performed
+- Collected and loaded the marketing campaign dataset.
+- Cleaned the dataset and handled missing values and duplicates.
+- Calculated Click-Through Rate (CTR).
+- Estimated conversions and cost per conversion.
+- Analyzed campaign ROI and estimated revenue.
+- Compared performance across campaign types, marketing channels, and target audiences.
+- Performed statistical analysis to compare channel performance.
+- Created visualizations to understand campaign performance.
+- Provided recommendations for improving marketing strategies.
 
-- Cleaned and explored retail sales data.
-- Checked missing values and duplicate records.
-- Performed summary statistics and sales analysis.
-- Created visualizations to understand sales trends.
-- Detected outliers using the IQR method.
-- Exported the cleaned dataset.
-
-## Tools Used
+### Tools and Technologies
 - Python
-- Google Colab
 - Pandas
 - NumPy
 - Matplotlib
-- Seaborn
+- SciPy
+- Google Colab
 
-## Files
-- `sales_data.csv` – Original dataset
-- `Retail_Sales_Cleaned.csv` – Cleaned dataset
-- `Task_1_Retail_Sales_Data_Cleaning.ipynb` – Python notebook
+### Deliverables
+- Jupyter Notebook containing the analysis.
+- Cleaned marketing campaign dataset.
+- Campaign, channel, audience, and monthly performance reports.
 
-More internship tasks will be added to this repository.
+### Note
+The dataset contains estimated performance metrics. Estimated conversions and revenue are calculated from the available dataset columns and should not be treated as actual business results.
