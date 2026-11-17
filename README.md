@@ -118,3 +118,87 @@ To analyze customer purchasing behavior, measure customer retention, and calcula
 
 ### Note
 The first purchase month is used as a proxy for the customer cohort month. CLV represents historical customer revenue during the available dataset period, not a future revenue prediction.
+
+### Task 5: Predictive Demand Modeling with Feature Engineering
+
+**Objective:**
+To develop a machine learning model that predicts product demand using historical sales data and helps improve inventory and procurement planning.
+
+**Dataset:**
+Online Retail Dataset – Kaggle
+
+**Activities Performed:**
+- Cleaned and preprocessed the retail sales dataset.
+- Selected a high-volume product for demand prediction.
+- Aggregated sales quantity into daily demand.
+- Created features such as day, month, day of the week, and weekend indicators.
+- Generated lag features and rolling-average features.
+- Trained and compared Linear Regression and Random Forest models.
+- Used chronological train-test splitting for time-aware validation.
+- Evaluated model performance using MAE and RMSE.
+- Analyzed feature importance.
+- Generated a 7-day demand forecast.
+- Prepared procurement recommendations based on predicted demand.
+
+**Tools and Technologies:**
+- Python
+- Google Colab
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- Scikit-learn
+
+**Deliverables:**
+- `Task_5_Predictive_Demand_Modeling.ipynb`
+- `Task_5_Analysis_Reports.zip`
+
+**Outcome:**
+Developed a predictive demand modeling workflow to estimate future product demand, compare machine learning models, understand important demand patterns, and support inventory planning decisions.
+
+**Note:** The selected dataset does not contain actual holiday or promotion information. The model focuses on one high-volume product and uses historical sales-based features.
+
+### Task 6: End-to-End Business Insights & Anomaly Detection System
+
+**Objective:**
+
+To develop an end-to-end business analytics system that combines data cleaning, business metric tracking, historical trend analysis, and statistical anomaly detection to identify unusual business activities.
+
+**Dataset:**
+
+Online Retail Dataset – Kaggle
+
+**Activities Performed:**
+
+- Cleaned and preprocessed the retail sales dataset.
+- Removed duplicate records, missing values, cancelled transactions, and invalid sales entries.
+- Calculated important business metrics such as total revenue, quantity sold, orders, and unique customers.
+- Analyzed daily revenue and weekly sales patterns.
+- Applied Z-score-based anomaly detection.
+- Used the IQR method to identify unusual revenue values.
+- Compared daily revenue with historical weekday patterns.
+- Identified unusual business activities using statistical thresholds.
+- Analyzed product and country-wise sales performance.
+- Generated business insights, charts, and recommendations.
+
+**Anomaly Detection Methods:**
+
+- Z-Score Method (Threshold: ±3)
+- Interquartile Range (IQR) Method (1.5 × IQR)
+- Historical Weekday Pattern Analysis
+
+**Tools and Technologies:**
+
+- Python
+- Google Colab
+- Pandas and NumPy
+- Matplotlib and Seaborn
+
+**Deliverables:**
+
+- `Task_6_End_to_End_Business_Insights.ipynb`
+- `Task_6_Analysis_Reports.zip`
+
+**Outcome:**
+
+Developed an end-to-end business insights system that monitors sales performance, detects unusual revenue activities, analyzes historical patterns, and provides data-driven recommendations for better business decision-making.
+
+**Note:** Statistical anomalies indicate unusual activity and do not automatically represent errors or fraud. The dataset does not contain actual conversion, churn, holiday, or promotion information.
